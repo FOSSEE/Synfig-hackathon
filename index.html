@@ -148,18 +148,35 @@
          </div>
       </div>
    </section>
+   <section id="whatishackathon">
    <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
       <div class="mr-md-3 text-center overflow-hidden pl-4 pr-4">
          <div class="py-3">
             <h4 class="display-5 section-title">What is the Synfig Studio 2D animation Hackathon?</h4>
          </div>
          <div class="mx-auto bd-highlight px-3">
-            <p class="text-justify">During the Hackathon the participants will create an original 2D animated short movie of maximum of 5 mins duration using Synfig Studio. You should make the animation (graphics, audio, etc.) using ONLY open source software. You can make the narration in (----) Indian languages for your animation. 
-            </p><br><br>
-            
+            <p class="text-justify">During the Hackathon the participants will create an original 2D animated short movie of maximum of 5 mins duration using Synfig Studio. You should make the animation (graphics, audio, etc.) using ONLY open source software. You can make the narration in 22 scheduled <a href="#" data-toggle="modal" data-target="#languages">Indian languages</a>. 
+            </p>
          </div>
       </div>
    </div>
+   <div id="languages" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title">Scheduled Indian Languages</h4>
+            </div>
+            <div class="modal-body">
+            <p class="text-justify">(1) Assamese, (2) Bengali, (3) Gujarati, (4) Hindi, (5) Kannada, (6) Kashmiri, (7) Konkani, (8) Malayalam, (9) Manipuri, (10) Marathi, (11) Nepali, (12) Oriya, (13) Punjabi, (14) Sanskrit, (15) Sindhi, (16) Tamil, (17) Telugu, (18) Urdu (19) Bodo, (20) Santhali, (21) Maithili and (22) Dogri.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+</section>
    <section id="register">
       <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
          <div class="mr-md-3 text-center overflow-hidden pl-4 pr-4">
@@ -480,17 +497,16 @@
    <script src="bootstrap-4.5.0/js/bootstrap.min.js"></script>
    <script src="js/holder.min.js"></script>
    <script src="js/custom.js?v={{ substr(md5(date("Y-m-d_Hi")),10,18) }}"></script>
-   <!-- Global site tag (gtag.js) - Google Analytics -->
-   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-82999923-1"></script>
+   <!-- Global site tag (gtag.js) - Google Analytics --> 
+   <script async src="https://www.googletagmanager.com/gtag/js?id=G-MTNG859K51"></script>
    <script>
-      window.dataLayer = window.dataLayer || [];
+   window.dataLayer = window.dataLayer || [];
 
-      function gtag() {
-         dataLayer.push(arguments);
-      }
-      gtag('js', new Date());
-
-      gtag('config', 'UA-82999923-1');
+   function gtag(){
+      dataLayer.push(arguments);
+   }
+   gtag('js', new Date());
+   gtag('config', 'G-MTNG859K51');
    </script>
    <script type="text/javascript">
       var activeNavItem = $('.nav-item');
