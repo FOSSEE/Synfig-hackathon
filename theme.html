@@ -25,8 +25,10 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
-  .bs-example{
-      margin: 20px;
+  .submission_guidelines{
+      width:500px;
+      height:100px;
+      border:1px solid #000;
     }
 </style>
 <!-- <style>
@@ -37,7 +39,7 @@
   transform: translate(-50%, -50%);
 }
 </style> -->
-   <script>
+  <!--  <script>
       function reloadFunction(event) {
          if (event.persisted) {
             console.log("The page was cached by the browser");
@@ -46,7 +48,7 @@
             console.log("The page was NOT cached by the browser");
          }
       }
-   </script>
+   </script> -->
 </head>
 
 <body>
@@ -80,10 +82,10 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
          <ul class="navbar-nav mr-auto  mx-auto navbar-right">
             <li class="nav-item active">
-               <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+               <a class="nav-link" href="index.html#home">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-               <a class="nav-link" href="#about">About</a>
+               <a class="nav-link" href="index.html#about">About</a>
             </li>
            <!--  <li class="nav-item">
                <a class="nav-link" href="#register">Registration</a>
@@ -101,22 +103,22 @@
                <a class="nav-link" href="#">Schedule</a>
             </li> -->
             <li class="nav-item">
-               <a class="nav-link" href="#endorsement-partners">Endorsement Partners</a>
+               <a class="nav-link" href="index.html#endorsement-partners">Endorsement Partners</a>
             </li>
             <li class="nav-item">
-               <a class="nav-link" href="#partners-and-organisers">Partners and Organisers</a>
+               <a class="nav-link" href="index.html#partners-and-organisers">Partners and Organisers</a>
             </li>
             <!-- <li class="nav-item">
                <a class="nav-link" href="#rules-and-regulations">Rules and Regulations</a>
             </li> -->
              <li class="nav-item">
-               <a class="nav-link" href="#">Rewards</a>
+               <a class="nav-link" href="rewards.html">Rewards</a>
             </li>
             <li class="nav-item">
-               <a class="nav-link" href="#faqs">FAQs</a>
+               <a class="nav-link" href="index.html#faqs">FAQs</a>
             </li>
             <li class="nav-item">
-               <a class="nav-link" href="#contact-us">Contact us</a>
+               <a class="nav-link" href="index.html#contact-us">Contact us</a>
             </li>
          </ul>
       </div>
@@ -126,7 +128,7 @@
 
 <script>
 // Set the date we're counting down to
-var countDownDate = new Date("Nov 25, 2020 00:00:00").getTime();
+var countDownDate = new Date("Dec 15, 2020 00:00:00").getTime();
 
 // Update the count down every 1 second
 var x = setInterval(function() {
@@ -157,25 +159,24 @@ var x = setInterval(function() {
 
   <section id="results">
     <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
-      <div class="bg-light mr-md-3 overflow-hidden pl-4 pr-4">
+      <div class="mr-md-3 overflow-hidden pl-4 pr-4">
 
         <div class="mx-auto bd-highlight px-3">
             
-        <div class="bs-example">
             <ul class="nav nav-tabs">
                 <li class="nav-item">
-                    <a data-toggle="tab" id="home-tab" href="#home" class="nav-link active" role="tab" aria-controls="home" aria-selected="true">Theme of the Hackathon</a>
+                    <a data-toggle="tab" id="theme_of_the_hackathon-tab" href="#theme_of_the_hackathon" class="nav-link active" role="tab" aria-controls="theme_of_the_hackathon" aria-selected="true">Theme of the Hackathon</a>
                 </li>
                 <li class="nav-item">
-                    <a data-toggle="tab" id="menu1-tab" href="#menu1" class="nav-link" role="tab" aria-controls="menu1" aria-selected="false">Submission Guidelines</a>
+                    <a data-toggle="tab" id="submission_guidelines-tab" href="#submission_guidelines" class="nav-link" role="tab" aria-controls="msubmission_guidelinesenu1" aria-selected="false">Submission Guidelines</a>
                 </li>
                 <li class="nav-item">
-                    <a data-toggle="tab" id="menu2-tab" href="#menu2" class="nav-link" role="tab" aria-controls="menu2" aria-selected="false">Judging Criteria</a>
+                    <a data-toggle="tab" id="judging_criteria-tab" href="#judging_criteria" class="nav-link" role="tab" aria-controls="judging_criteria" aria-selected="false">Judging Criteria</a>
                 </li>
             </ul>
-        </div>
-<div class="tab-content">
-    <div id="home" class="tab-pane fade show active pt-2" role="tabpanel" aria-labelledby="home-tab">
+  
+<div class="tab-content pt-3 ml-3">
+    <div id="theme_of_the_hackathon" class="tab-pane fade show active pt-2" role="tabpanel" aria-labelledby="theme_of_the_hackathon-tab">
        <p class="text-justify">Synfig Studio 2D Animation Hackathon. The theme for animation is:</p>
         <center><img src="image/patch2.png"><br><br></center>
         <!-- <div class="container">
@@ -184,23 +185,23 @@ var x = setInterval(function() {
         </div> -->
 
 
-    <p><span >The Panchtantra is an ancient Sanskrit collection of stories. Team should create a 2D animation for these stories, using Synfig Studio software.</span></p>
-    <p><span style="font-weight: 400;">Please find the list of Panchatantra stories along the moral </span><a href="https://docs.google.com/spreadsheets/d/1-xssRyZwSbva25zyLBlV2iWCDj4wx8PnCuEzFS-Uqiw/edit#gid=0" target="_blank"><span style="font-weight: 400;">here</span></a><span style="font-weight: 400;">.</span></p>
+    <p>The Panchtantra is an ancient Sanskrit collection of stories. Team should create a 2D animation for these stories, using Synfig Studio software.</p>
+    <p>Please find the list of Panchatantra stories along the moral <a href="https://docs.google.com/spreadsheets/d/1-xssRyZwSbva25zyLBlV2iWCDj4wx8PnCuEzFS-Uqiw/edit#gid=0" target="_blank">here</a>.</p>
     <p>You can have the stories interpreted according to the current situations happening across the world. For example the climate change, elections, pandemic situation, air pollution, etc. Please make sure that the moral of the story is not changed.</p>
     </div>
 
 
 
-    <div id="menu1" class="tab-pane fade" role="tabpanel" aria-labelledby="menu1-tab">
-     <p>The participants have to submit their animation at <a href="https://courses.fossee.in">https://courses.fossee.in</a>. After confirming your participation in the Hackathon, your login credentials for submission will be generated and sent to you on the registered email ID.</p>
+    <div id="submission_guidelines" class="tab-pane fade" role="tabpanel" aria-labelledby="submission_guidelinessubmission_guidelines-tab">
+     <p>The participants have to submit their animation at <a href="https://courses.fossee.in" target="_blank">https://courses.fossee.in</a>. After confirming your participation in the Hackathon, your login credentials for submission will be generated and sent to you on the registered email ID.</p>
         
-      <p><mark><span style="width:500px;height:100px;border:1px solid #000;">Please note: An email is sent to your registered email ID, where you have to confirm your participation in this Hackathon. Please make sure that this form is filled only by the team lead.</span></mark></p>
+      <p><mark><span >Please note: An email is sent to your registered email ID, where you have to confirm your participation in this Hackathon. Please make sure that this form is filled only by the team lead.</span></mark></p>
 
       <p>Please find the <a href="https://docs.google.com/document/d/1srvLuY6tYJEPz4VKwCCmNDFN8Mrl_xVgJK-Z0QQTcxQ/edit" target="_blank"><strong>Guidelines for submission</strong></a> here.</p>
 
         <p>Please follow the steps given below to submit your animation.</p>
         <ol>
-        <li>Go to <a href="https://courses.fossee.in">https://courses.fossee.in</a></li>
+        <li>Go to <a href="https://courses.fossee.in" target="_blank">https://courses.fossee.in</a></li>
         <li>Click on the <strong>"Login"</strong> button available on the top right of the page.</li>
         <li>Enter the username<!--  (ie. <span style=" color: red;">Team ID</span>) --> and Password as received over mail and click on <strong>"Log in"</strong>.</li>
         <li>After logging in for the first time, you will be prompted to update the password.</li>
@@ -211,7 +212,7 @@ var x = setInterval(function() {
     </div>
 
 
-    <div id="menu2" class="tab-pane fade"role="tabpanel" aria-labelledby="menu2-tab">
+    <div id="judging_criteria" class="tab-pane fade"role="tabpanel" aria-labelledby="judging_criteria-tab">
       <p> This will be updated after tomorrow’s meeting.</p>
     </div>
   </div>
