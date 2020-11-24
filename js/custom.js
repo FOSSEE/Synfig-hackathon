@@ -123,3 +123,13 @@ function initializeClock(id, endtime) {
 
 var deadline = new Date("July 01, 2020 00:00:00");
 initializeClock('clockdiv', deadline);
+
+
+function reloadFunction(event) {
+         if (event.persisted) {
+            console.log("The page was cached by the browser");
+            location.reload(true);
+         } else {
+            console.log("The page was NOT cached by the browser");
+         }
+      }

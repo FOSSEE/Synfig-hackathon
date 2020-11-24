@@ -1,0 +1,285 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+   <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+   <meta http-equiv="Pragma" content="no-cache">
+   <meta http-equiv="Expires" content="-1">
+   <meta name="description" content="Synfig Studio 2D Animation Hackathon by FOSSEE">
+   <meta name="author" content="FOSSEE web team">
+   <meta name="keywords" content="Hackathon, coding, competition">
+   <meta name="keywords"
+      content="Synfig, Synfig Studio, 2D Animation, short video, art, pictures, Open source, software">
+   <link rel="icon" href="image/Synfig-logo.png">
+   <title>Synfig Studio 2D Animation Hackathon</title>
+   <!-- Bootstrap core CSS -->
+   <link href="bootstrap-4.5.0/css/bootstrap.min.css" rel="stylesheet">
+   <link href="fontawesome/css/all.css" rel="stylesheet">
+   <link href="css/custom.css?ver=1.4" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  .submission_guidelines{
+      width:500px;
+      height:100px;
+      border:1px solid #000;
+    }
+</style>
+<!-- <style>
+  .bottom {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+</style> -->
+  <!--  <script>
+      function reloadFunction(event) {
+         if (event.persisted) {
+            console.log("The page was cached by the browser");
+            location.reload(true);
+         } else {
+            console.log("The page was NOT cached by the browser");
+         }
+      }
+   </script> -->
+</head>
+
+<body>
+   <div id="top-logo-placeholder" class="container">
+   </div>
+   <!-- Section for social media links starts -->
+   <div class="icon-bar">
+      <a href="https://www.facebook.com/FOSSEENMEICT/" class="facebook text-white" target="_blank"><i
+            class="fab fa-facebook-square"></i></a>
+      <a href="https://www.instagram.com/fossee_nmeict/" class="instagram" target="_blank"><i
+            class="fab fa-instagram"></i></a>
+      <a href="https://twitter.com/FOSSEE/" class="twitter" target="_blank"><i
+            class="fab fa-twitter-square"></i></a>
+      <a href="https://www.linkedin.com/company/fossee-iitb/" class="linkedin" target="_blank"><i
+            class="fab fa-linkedin"></i></a>
+   </div>
+   <!-- Section for social media links ends -->
+  <div class="box">
+   <div class="box-inner px-1">
+      This website will be offline for maintenance and updates from 01:30 AM to 02:00 AM IST.
+   </div>
+   </div>
+   <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa fa-angle-up"
+         aria-hidden="true"></i></button>
+  <nav class="navbar navbar-expand-lg site-header sticky-top py-1">
+      <a class="navbar-brand" href="#"><span class="navbar-toggler-icon"></span></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+         <span class="navbar-toggler-icon" style="color:#f50000"><i class="fas fa-align-justify"></i></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+         <ul class="navbar-nav mr-auto  mx-auto navbar-right">
+            <li class="nav-item active">
+               <a class="nav-link" href="index.html#home">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+               <a class="nav-link" href="index.html#about">About</a>
+            </li>
+           <!--  <li class="nav-item">
+               <a class="nav-link" href="#register">Registration</a>
+            </li> -->
+            <!-- <li class="nav-item">
+               <a class="nav-link" href="resources.html">Resources</a>
+            </li> -->
+            <!-- <li class="nav-item">
+               <a class="nav-link" href="submissions.html">Submissions</a>
+            </li> -->
+            <!-- <li class="nav-item">
+               <a href="results.html" class="nav-link">Results</a>
+            </li> -->
+             <!-- <li class="nav-item">
+               <a class="nav-link" href="#">Schedule</a>
+            </li> -->
+            <li class="nav-item">
+               <a class="nav-link" href="index.html#endorsement-partners">Endorsement Partners</a>
+            </li>
+            <li class="nav-item">
+               <a class="nav-link" href="index.html#partners-and-organisers">Partners and Organisers</a>
+            </li>
+            <!-- <li class="nav-item">
+               <a class="nav-link" href="#rules-and-regulations">Rules and Regulations</a>
+            </li> -->
+             <li class="nav-item">
+               <a class="nav-link" href="rewards.html">Rewards</a>
+            </li>
+            <li class="nav-item">
+               <a class="nav-link" href="index.html#faqs">FAQs</a>
+            </li>
+            <li class="nav-item">
+               <a class="nav-link" href="index.html#contact-us">Contact us</a>
+            </li>
+         </ul>
+      </div>
+   </nav> 
+   <br>
+ <h2><center><p style="color: purple" id="demo"></p></center></h2>
+
+<script>
+// Set the date we're counting down to
+var countDownDate = new Date("Dec 15, 2020 00:00:00").getTime();
+
+// Update the count down every 1 second
+var x = setInterval(function() {
+
+  // Get today's date and time
+  var now = new Date().getTime();
+    
+  // Find the distance between now and the count down date
+  var distance = countDownDate - now;
+    
+  // Time calculations for days, hours, minutes and seconds
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+    
+  // Output the result in an element with id="demo"
+  document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+  + minutes + "m " + seconds + "s ";
+    
+  // If the count down is over, write some text 
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("demo").innerHTML = "EXPIRED";
+  }
+}, 1000);
+</script>
+
+  <section id="results">
+    <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
+      <div class="mr-md-3 overflow-hidden pl-4 pr-4">
+
+        <div class="mx-auto bd-highlight px-3">
+            
+            <ul class="nav nav-tabs">
+                <li class="nav-item">
+                    <a data-toggle="tab" id="theme_of_the_hackathon-tab" href="#theme_of_the_hackathon" class="nav-link active" role="tab" aria-controls="theme_of_the_hackathon" aria-selected="true">Theme of the Hackathon</a>
+                </li>
+                <li class="nav-item">
+                    <a data-toggle="tab" id="submission_guidelines-tab" href="#submission_guidelines" class="nav-link" role="tab" aria-controls="msubmission_guidelinesenu1" aria-selected="false">Submission Guidelines</a>
+                </li>
+                <li class="nav-item">
+                    <a data-toggle="tab" id="judging_criteria-tab" href="#judging_criteria" class="nav-link" role="tab" aria-controls="judging_criteria" aria-selected="false">Judging Criteria</a>
+                </li>
+            </ul>
+  
+<div class="tab-content pt-3 ml-3">
+    <div id="theme_of_the_hackathon" class="tab-pane fade show active pt-2" role="tabpanel" aria-labelledby="theme_of_the_hackathon-tab">
+       <p class="text-justify">Synfig Studio 2D Animation Hackathon. The theme for animation is:</p>
+        <center><img src="image/patch2.png"><br><br></center>
+        <!-- <div class="container">
+        <center>  <img src="image/patch-bg.png" alt="Snow" style="width:50%;">
+          <div class="bottom">The Panchatantra Stories</div>
+        </div> -->
+
+
+    <p>The Panchtantra is an ancient Sanskrit collection of stories. Team should create a 2D animation for these stories, using Synfig Studio software.</p>
+    <p>Please find the list of Panchatantra stories along the moral <a href="https://docs.google.com/spreadsheets/d/1-xssRyZwSbva25zyLBlV2iWCDj4wx8PnCuEzFS-Uqiw/edit#gid=0" target="_blank">here</a>.</p>
+    <p>You can have the stories interpreted according to the current situations happening across the world. For example the climate change, elections, pandemic situation, air pollution, etc. Please make sure that the moral of the story is not changed.</p>
+    </div>
+
+
+
+    <div id="submission_guidelines" class="tab-pane fade" role="tabpanel" aria-labelledby="submission_guidelinessubmission_guidelines-tab">
+     <p>The participants have to submit their animation at <a href="https://courses.fossee.in" target="_blank">https://courses.fossee.in</a>. After confirming your participation in the Hackathon, your login credentials for submission will be generated and sent to you on the registered email ID.</p>
+        
+      <p><mark><span >Please note: An email is sent to your registered email ID, where you have to confirm your participation in this Hackathon. Please make sure that this form is filled only by the team lead.</span></mark></p>
+
+      <p>Please find the <a href="https://docs.google.com/document/d/1srvLuY6tYJEPz4VKwCCmNDFN8Mrl_xVgJK-Z0QQTcxQ/edit" target="_blank"><strong>Guidelines for submission</strong></a> here.</p>
+
+        <p>Please follow the steps given below to submit your animation.</p>
+        <ol>
+        <li>Go to <a href="https://courses.fossee.in" target="_blank">https://courses.fossee.in</a></li>
+        <li>Click on the <strong>"Login"</strong> button available on the top right of the page.</li>
+        <li>Enter the username<!--  (ie. <span style=" color: red;">Team ID</span>) --> and Password as received over mail and click on <strong>"Log in"</strong>.</li>
+        <li>After logging in for the first time, you will be prompted to update the password.</li>
+        <li>Click on the "Synfig Studio 2D Animation Hackathon" available in the left panel of the Welcome page.</li>
+        <li>Scroll down and go to <!-- <a href="https://courses.fossee.in/course/view.php?id=100#section-3"> --><strong>"Animation Submission Upload" </strong>section.</a></li>
+        <li> <p>Go to <strong>Click here to add your submission"</strong> to submit your files for the hackathon.</p></li>
+        </ol>
+    </div>
+
+
+    <div id="judging_criteria" class="tab-pane fade"role="tabpanel" aria-labelledby="judging_criteria-tab">
+      <p> This will be updated after tomorrow’s meeting.</p>
+    </div>
+  </div>
+</div>
+
+        </div>
+      </div>
+  </section>
+  <section id="footer" class="site-footer">
+      <footer class="container-fluid py-5 site-footer pl-5 pr-4">
+         <div class="row">
+            <div class="col-sm-3">
+               <ul class="list-unstyled text-small">
+                  <li><a class="text-muted" href="https://fossee.in" target="_blank">FOSSEE</a></li>
+                  <li><a class="text-muted" href="https://focal.fossee.in/" target="_blank">FOCAL</a></li>
+                  <li><a class="text-muted" href="https://spoken-tutorial.org" target="_blank">Spoken Tutorial</a></li>
+               </ul>
+            </div>
+            <div class="col-sm-3">
+               <h5>Resources</h5>
+               <ul class="list-unstyled text-small">
+                  <li><a class="text-muted" href="https://www.synfig.org/" target="_blank">Synfig.org</a></li>
+                  <li><a class="text-muted" href="https://spoken-tutorial.org" target="_blank">Spoken Tutorial</a></li>
+                  <li><a class="text-muted" href="https://forums.fossee.in/" target="_blank">Fossee Forum</a></li>
+                  <li><a class="text-muted" href="https://forums.spoken-tutorial.org" target="_blank">Spoken Tutorial Forum</a></li>
+               </ul>
+            </div>
+               <small class="d-block mb-3 text-muted">
+                  <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img
+                        alt="Creative Commons License" style="border-width:0" src="image/88x31.png" /></a><br />This
+                  work is licensed under a <a rel="license"
+                     href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons
+                     Attribution-ShareAlike 4.0 International License</a>.
+               </small>
+            </div>
+         </div>
+      </footer>
+   </section>
+
+  <!-- Bootstrap core JavaScript
+    ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script src="js/jquery-3.2.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="bootstrap-4.5.0/js/bootstrap.min.js"></script>
+  <script src="js/holder.min.js"></script>
+  <script src="js/custom.js"></script>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-82999923-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-82999923-1');
+  </script>
+  <script type="text/javascript">
+    var activeNavItem = $('.nav-item');
+
+    activeNavItem.click(function () {
+      activeNavItem.removeClass('active');
+      $(this).addClass('active');
+    });
+  </script>
+</body>
+
+</html>
