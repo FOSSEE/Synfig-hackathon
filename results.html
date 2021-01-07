@@ -1,0 +1,363 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+   <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+   <meta http-equiv="Pragma" content="no-cache">
+   <meta http-equiv="Expires" content="-1">
+   <meta name="description" content="Synfig Studio 2D Animation Hackathon by FOSSEE">
+   <meta name="author" content="FOSSEE web team">
+   <meta name="keywords" content="Hackathon, coding, competition">
+   <meta name="keywords"
+      content="Synfig, Synfig Studio, 2D Animation, short video, art, pictures, Open source, software">
+   <link rel="icon" href="image/Synfig-logo.png">
+   <title>Synfig Studio 2D Animation Hackathon</title>
+   <!-- Bootstrap core CSS -->
+   <link href="bootstrap-4.5.0/css/bootstrap.min.css" rel="stylesheet">
+   <link href="fontawesome/css/all.css" rel="stylesheet">
+   <link href="css/custom.css?ver=1.4" rel="stylesheet">
+   <script>
+      function reloadFunction(event) {
+         if (event.persisted) {
+            console.log("The page was cached by the browser");
+            location.reload(true);
+         } else {
+            console.log("The page was NOT cached by the browser");
+         }
+      }
+   </script>
+</head>
+
+<body onpageshow="reloadFunction(event)">
+   <div id="top-logo-placeholder" class="container">
+   </div>
+   <!-- Section for social media links starts -->
+   <div class="icon-bar">
+      <a href="https://www.facebook.com/FOSSEENMEICT/" class="facebook text-white" target="_blank"><i
+            class="fab fa-facebook-square"></i></a>
+      <a href="https://www.instagram.com/fossee_nmeict/" class="instagram" target="_blank"><i
+            class="fab fa-instagram"></i></a>
+      <a href="https://twitter.com/FOSSEE/" class="twitter" target="_blank"><i
+            class="fab fa-twitter-square"></i></a>
+      <a href="https://www.linkedin.com/company/fossee-iitb/" class="linkedin" target="_blank"><i
+            class="fab fa-linkedin"></i></a>
+   </div>
+   <!-- Section for social media links ends -->
+   <div class="box">
+   <div class="box-inner px-1">
+      This website will be offline for maintenance and updates from 01:30 AM to 02:00 AM IST.
+   </div>
+   </div>
+   <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa fa-angle-up"
+         aria-hidden="true"></i></button>
+   <nav class="navbar navbar-expand-lg site-header sticky-top py-1">
+      <a class="navbar-brand" href="#"><span class="navbar-toggler-icon"></span></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+         <span class="navbar-toggler-icon" style="color:#f50000"><i class="fas fa-align-justify"></i></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+         <ul class="navbar-nav mr-auto  mx-auto navbar-right">
+            <li class="nav-item">
+               <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+               <a class="nav-link" href="#about">About</a>
+            </li>
+           <!--  <li class="nav-item">
+               <a class="nav-link" href="#register">Registration</a>
+            </li> -->
+            <!-- <li class="nav-item">
+               <a class="nav-link" href="resources.html">Resources</a>
+            </li> -->
+            <li class="nav-item">
+               <a class="nav-link" href="theme.html">Theme</a>
+            </li> 
+            <li class="nav-item active">
+               <a href="results.html" class="nav-link">Results</a>
+            </li>
+             <!-- <li class="nav-item">
+               <a class="nav-link" href="#">Schedule</a>
+            </li> -->
+            <li class="nav-item">
+               <a class="nav-link" href="#endorsement-partners">Endorsement Partners</a>
+            </li>
+            <li class="nav-item">
+               <a class="nav-link" href="#partners-and-organisers">Partners and Organisers</a>
+            </li>
+            <!-- <li class="nav-item">
+               <a class="nav-link" href="#rules-and-regulations">Rules and Regulations</a>
+            </li> -->
+             <li class="nav-item">
+               <a class="nav-link" href="rewards.html">Rewards</a>
+            </li>
+            <li class="nav-item">
+               <a class="nav-link" href="#faqs">FAQs</a>
+            </li>
+            
+            <li class="nav-item">
+               <a class="nav-link" href="#contact-us">Contact us</a>
+            </li>
+         </ul>
+      </div>
+   </nav>
+
+  <section id="results">
+    <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
+      <div class=" mr-md-3 overflow-hidden pl-4 pr-4">
+        <div class="py-3">
+          <h4 class="display-5 section-title">Results</h4>
+        </div>
+
+        <div class="mx-auto bd-highlight px-3">
+            <ul class="nav nav-tabs" id="myTab" role="tablist">
+              <li class="nav-item">
+                <a class="nav-link active" id="winners-tab" data-toggle="tab" href="#winners" role="tab" aria-controls="winners" aria-selected="true">Winners</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="consolation-tab" data-toggle="tab" href="#consolation" role="tab" aria-controls="consolation" aria-selected="false">Consolation Prize Winners</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="special-tab" data-toggle="tab" href="#special" role="tab" aria-controls="special" aria-selected="false">Special Recognition</a>
+              </li>
+            </ul>
+<div class="tab-content" id="myTabContent">
+  <div class="tab-pane fade show active pt-2" id="winners" role="tabpanel" aria-labelledby="winners-tab">
+    <p>List of Winners:</p>
+     <!--  <p class="text-justify">Total 5 teams were found to be equally good, so all 5 teams were recognised as champions instead of traditional 1st, 2nd, and 3rd prizes.</p> -->
+      <table class="table table-bordered">
+        <thead class="thead-dark">
+          <th>Rank</th>
+          <th>Team ID</th>
+          <th>Team Leader</th>
+          <th>Story Name</th>
+          <th>Video Link</th>
+        </thead>
+        <tbody>
+          <tr>
+          <td>1st</td>
+          <td>SS2DH1408</td>
+          <td>Vanshpalsingh Kalsi</td>
+          <td>The Lion Makers</td>
+          <td><a href="https://static.fossee.in/focal/videos/SS2DH1408.mp4" target="_blank">Watch Animation</a></td>
+          </tr>
+          <tr>
+          <td colspan="1" rowspan="4">
+          <div>2nd</div>
+          </td>
+          <td colspan="1" rowspan="4">
+          <div>SS2DH1227</div>
+          </td>
+          <td>Shubham Kanase</td>
+          <td colspan="1" rowspan="4">
+          <div>The Cleaver Monkey</div>
+          </td>
+          <td colspan="1" rowspan="4">
+          <div><a href="https://static.fossee.in/focal/videos/SS2DH1227.mp4" target="_blank">Watch Animation</a></div>
+          </td>
+          </tr>
+          <tr>
+          <td>Vaibhav Kadam</td>
+          </tr>
+          <tr>
+          <td>Yogesh Jadhav</td>
+          </tr>
+          <tr>
+          <td>Mayank Dhargawe</td>
+          </tr>
+          <tr>
+          <td colspan="1" rowspan="4">
+          <div>3rd</div>
+          </td>
+          <td colspan="1" rowspan="4">
+          <div>SS2DH1021</div>
+          </td>
+          <td>Rakshitha Vaidhya. k</td>
+          <td colspan="1" rowspan="4">
+          <div>The Cleaver Fishes</div>
+          </td>
+          <td colspan="1" rowspan="4">
+          <div><a href="https://static.fossee.in/focal/videos/SS2DH1021.mp4" target="_blank">Watch Animation</a></div>
+          </td>
+          </tr>
+          <tr>
+          <td>Mouleaswar S</td>
+          </tr>
+          <tr>
+          <td>Pradeep P</td>
+          </tr>
+          <tr>
+          <td>Soujanya Rashmie. M</td>
+          </tr>
+        </tbody>
+      </table>
+  </div>
+
+
+  <div class="tab-pane fade pt-2" id="consolation" role="tabpanel" aria-labelledby="consolation-tab">
+    <p>List of Consolation prize winners:</p>
+      <table class="table table-bordered">
+        <thead class="thead-dark">
+          <th>Team ID</th>
+          <th>Team Leader &amp; Team Member</th>
+          <th>Story Name</th>
+          <th>Video Link</th>
+        </thead>
+        <tbody>
+          <tr>
+          <td colspan="1" rowspan="4">
+          <div>SS2DH0824</div>
+          </td>
+          <td>Naveena K S</td>
+          <td colspan="1" rowspan="4">
+          <div>Forethought &amp; Ready-wit &amp; Fatalist</div>
+          </td>
+          <td colspan="1" rowspan="4">
+          <div><a href="https://static.fossee.in/focal/videos/SS2DH0824.mp4" target="_blank">Watch Animation</a></div>
+          </td>
+          </tr>
+          <tr>
+          <td>Yadhu Nandhini S E</td>
+          </tr>
+          <tr>
+          <td>Kavi Varshini S</td>
+          </tr>
+          <tr>
+          <td>Sowmyaa Shri S</td>
+          </tr>
+          <tr>
+          <td>SS2DH0641</td>
+          <td>Karthika Rajesh</td>
+          <td>The Squabbling Monkeys</td>
+          <td><a href="https://static.fossee.in/focal/videos/SS2DH0641.mp4" target="_blank">Watch Animation</a></td>
+          </tr>
+          <tr>
+          <td>SS2DH0369</td>
+          <td>Aditya Gopakumar</td>
+          <td>The Lion And The Jackal</td>
+          <td><a href="https://static.fossee.in/focal/videos/SS2DH0369.mp4" target="_blank">Watch Animation</a></td>
+          </tr>
+          <tr>
+          <td>SS2DH0612</td>
+          <td>Jony Jas J</td>
+          <td>The Tale of Three Fishes</td>
+          <td><a href="https://static.fossee.in/focal/videos/SS2DH0612.mp4" target="_blank">Watch Animation</a></td>
+          </tr>
+        </tbody>
+      </table>
+  </div>
+
+      <div class="tab-pane fade pt-2" id="special" role="tabpanel" aria-labelledby="special-tab">
+    <p>List of Special Recognition:</p>
+         <table class="table table-bordered">
+      <thead class="thead-dark">
+          <th>Team ID</th>
+          <th>Team Leader &amp; Team Member</th>
+          <th>Story Name</th>
+          <th>Category</th>
+          <th>Video Link</th>
+        </thead>
+        <tbody>
+        <tr>
+        <td>SS2DH0209</td>
+        <td>Saanvi Gokhale</td>
+        <td>The heron that liked crab meat</td>
+        <td>Unique (Youngest) Participant</td>
+        <td><a href="https://static.fossee.in/focal/videos/SS2DH0209.mp4" target="_blank">Watch Animation</a></td>
+        </tr>
+        <tr>
+        <td>SS2DH0170</td>
+        <td>Akhtar Nadaf</td>
+        <td>The heron that liked crab meat</td>
+        <td>Unique (Hindi Play) Participant</td>
+        <td><a href="https://static.fossee.in/focal/videos/SS2DH0170.mp4" target="_blank">Watch Animation</a></td>
+        </tr>
+        <tr>
+        <td>SS2DH0042</td>
+        <td>Pranali Khedekar</td>
+        <td>The Blue Jackal</td>
+        <td>Unique (Creative) Participant</td>
+        <td><a href="https://static.fossee.in/focal/videos/SS2DH0042.mp4" target="_blank">Watch Animation</a></td>
+        </tr>
+        </tbody>
+      </table>
+      </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+ <section id="footer" class="site-footer">
+      <footer class="container-fluid py-5 site-footer pl-5 pr-4">
+         <div class="row">
+            <div class="col-sm-3">
+               <ul class="list-unstyled text-small">
+                  <li><a class="text-muted" href="https://fossee.in" target="_blank">FOSSEE</a></li>
+                  <li><a class="text-muted" href="https://focal.fossee.in/" target="_blank">FOCAL</a></li>
+                  <li><a class="text-muted" href="https://spoken-tutorial.org" target="_blank">Spoken Tutorial</a></li>
+               </ul>
+            </div>
+            <div class="col-sm-3">
+               <h5>Resources</h5>
+               <ul class="list-unstyled text-small">
+                  <li><a class="text-muted" href="https://www.synfig.org/" target="_blank">Synfig.org</a></li>
+                  <li><a class="text-muted" href="https://spoken-tutorial.org" target="_blank">Spoken Tutorial</a></li>
+                  <li><a class="text-muted" href="https://forums.fossee.in/" target="_blank">Fossee Forum</a></li>
+                  <li><a class="text-muted" href="https://forums.spoken-tutorial.org" target="_blank">Spoken Tutorial Forum</a></li>
+               </ul>
+            </div>
+           <!--  <div class="col-sm-3">
+               <h5>Socail Media</h5>
+               <ul class="list-unstyled text-small">
+                  <li><a href="https://www.facebook.com/FOSSEENMEICT/" class="facebook text-white" target="_blank"><i
+                     class="fab fa-facebook"></i></a>
+                  </li><br>
+                  <li><a href="https://twitter.com/FOSSEENMEICT/" class="twitter" target="_blank"><i
+                     class="fab fa-twitter"></i></a>
+                  </li>
+               </ul>
+            </div>
+            <div class="col-sm-3"> -->
+               <small class="d-block mb-3 text-muted">
+                  <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img
+                        alt="Creative Commons License" style="border-width:0" src="image/88x31.png" /></a><br />This
+                  work is licensed under a <a rel="license"
+                     href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons
+                     Attribution-ShareAlike 4.0 International License</a>.
+               </small>
+            </div>
+         </div>
+      </footer>
+   </section>
+   <!-- Bootstrap core JavaScript
+         ================================================== -->
+   <!-- Placed at the end of the document so the pages load faster -->
+   <script src="js/jquery-3.2.1.min.js"></script>
+   <script src="js/popper.min.js"></script>
+   <script src="bootstrap-4.5.0/js/bootstrap.min.js"></script>
+   <script src="js/holder.min.js"></script>
+   <script src="js/custom.js?v={{ substr(md5(date("Y-m-d_Hi")),10,18) }}"></script>
+   <!-- Global site tag (gtag.js) - Google Analytics --> 
+   <script async src="https://www.googletagmanager.com/gtag/js?id=G-MTNG859K51"></script>
+   <script>
+   window.dataLayer = window.dataLayer || [];
+
+   function gtag(){
+      dataLayer.push(arguments);
+   }
+   gtag('js', new Date());
+   gtag('config', 'G-MTNG859K51');
+   </script>
+   <script type="text/javascript">
+      var activeNavItem = $('.nav-item');
+
+      activeNavItem.click(function () {
+         activeNavItem.removeClass('active');
+         $(this).addClass('active');
+      });
+   </script>
+</body>
+
+</html>
