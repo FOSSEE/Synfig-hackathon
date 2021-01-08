@@ -89,8 +89,8 @@ function divReplaceSpecial(){
          $('#special-congratulations').show();
         divReplaceSpecialtwice();
         setTimeout(function(){
-            window.location.href = 'announce-winners.html'
-         }, 15000);
+            window.location.href = 'announce-special.html'
+         }, 20000);
       },
       1000
    );
@@ -103,7 +103,7 @@ function divReplaceSpecial(){
          $('#special-congratulations').replaceWith($('#special'));
          $('#special').show();
       },
-      3500
+      5000
    );
    }
  
@@ -268,7 +268,7 @@ function divReplaceSpecial(){
       <!-- <button type="button" class="btn btn-lg btn-danger" data-toggle="collapse" id="announce-special" onclick="divReplaceSpecial()">Announce Special prize winners</button> -->
         </div>
         <div class="col-md-8">
-        <div id="special-congratulations" style="display:none;"><img id="myImage" src="image/congratulations.png" class="img-fluid"></div>
+        <div id="special-congratulations" style="display:none;"><img id="myImage" src="image/special.gif" class="img-fluid"></div>
         <div id="special" class="collapse">
         <p>List of Special prize winners:</p>
          <table class="table table-bordered">
