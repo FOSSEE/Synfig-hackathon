@@ -1,0 +1,542 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+   <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+   <meta http-equiv="Pragma" content="no-cache">
+   <meta http-equiv="Expires" content="-1">
+   <meta name="description" content="Synfig Studio 2D Animation Hackathon by FOSSEE">
+   <meta name="author" content="FOSSEE web team">
+   <meta name="keywords" content="Hackathon, coding, competition">
+   <meta name="keywords"
+      content="Synfig, Synfig Studio, 2D Animation, short video, art, pictures, Open source, software">
+   <link rel="icon" href="image/Synfig-logo.png">
+   <title>Synfig Studio 2D Animation Hackathon</title>
+   <!-- Bootstrap core CSS -->
+   <link href="bootstrap-4.5.0/css/bootstrap.min.css" rel="stylesheet">
+   <link href="fontawesome/css/all.css" rel="stylesheet">
+   <link href="css/custom.css?ver=1.4" rel="stylesheet">
+  <script>
+    function reloadFunction(event) {
+      if (event.persisted) {
+        console.log("The page was cached by the browser");
+        location.reload(true);
+      } else {
+        console.log("The page was NOT cached by the browser");
+      }
+    }
+  </script>
+  <script language="javascript">
+function divReplaceWinners(){
+
+            setTimeout(
+      function(){
+       
+        // $('#Div-A').replaceWith($('#Div-B'));
+         $('#Div-B').show();
+        divReplaceWinnerstwice();
+      },
+      1000
+   );
+ 
+ }
+  function divReplaceWinnerstwice(){
+ 
+   setTimeout(
+      function(){
+       
+         $('#Div-B').replaceWith($('#winners'));
+         $('#winners').show();
+       
+      },
+      3500
+   );
+   }
+   function divReplaceConsolation(){
+
+            setTimeout(
+      function(){
+       
+        // $('#Div-A').replaceWith($('#Div-B'));
+         $('#consolation-congratulations').show();
+        divReplaceConsolationtwice();
+
+      },
+      1000
+   );
+ 
+ }
+ function divReplaceConsolationtwice(){
+ 
+   setTimeout(
+      function(){
+       
+         $('#consolation-congratulations').replaceWith($('#consolation'));
+         $('#consolation').show();
+       
+      },
+      3500
+   );
+ }
+function divReplaceSpecial(){
+
+            setTimeout(
+      function(){
+       
+        // $('#Div-A').replaceWith($('#Div-B'));
+         $('#special-congratulations').show();
+        divReplaceSpecialtwice();
+        setTimeout(function(){
+            window.location.href = 'announce-special.html'
+         }, 20000);
+      },
+      1000
+   );
+   }
+   function divReplaceSpecialtwice(){
+ 
+   setTimeout(
+      function(){
+       
+         $('#special-congratulations').replaceWith($('#special'));
+         $('#special').show();
+      },
+      5000
+   );
+   }
+ 
+</script>
+</head>
+
+<body onpageshow="reloadFunction(event)">
+   <div id="top-logo-placeholder" class="container">
+   </div>
+   <!-- Section for social media links starts -->
+   <div class="icon-bar">
+      <a href="https://www.facebook.com/FOSSEENMEICT/" class="facebook text-white" target="_blank"><i
+            class="fab fa-facebook-square"></i></a>
+      <a href="https://www.instagram.com/fossee_nmeict/" class="instagram" target="_blank"><i
+            class="fab fa-instagram"></i></a>
+      <a href="https://twitter.com/FOSSEE/" class="twitter" target="_blank"><i
+            class="fab fa-twitter-square"></i></a>
+      <a href="https://www.linkedin.com/company/fossee-iitb/" class="linkedin" target="_blank"><i
+            class="fab fa-linkedin"></i></a>
+   </div>
+   <!-- Section for social media links ends -->
+   <div class="box">
+   <div class="box-inner px-1">
+      This website will be offline for maintenance and updates from 01:30 AM to 02:00 AM IST.
+   </div>
+   </div>
+   <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa fa-angle-up"
+         aria-hidden="true"></i></button>
+   <nav class="navbar navbar-expand-lg site-header sticky-top py-1">
+      <a class="navbar-brand" href="#"><span class="navbar-toggler-icon"></span></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+         <span class="navbar-toggler-icon" style="color:#f50000"><i class="fas fa-align-justify"></i></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+         <ul class="navbar-nav mr-auto  mx-auto navbar-right">
+            <li class="nav-item">
+               <a class="nav-link" href="index.html#home">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+               <a class="nav-link" href="index.html#about">About</a>
+            </li>
+           <!--  <li class="nav-item">
+               <a class="nav-link" href="#register">Registration</a>
+            </li> -->
+            <!-- <li class="nav-item">
+               <a class="nav-link" href="resources.html">Resources</a>
+            </li> -->
+            <li class="nav-item">
+               <a class="nav-link" href="theme.html">Theme</a>
+            </li>
+            <!-- <li class="nav-item">
+               <a href="results.html" class="nav-link">Results</a>
+            </li> -->
+             <!-- <li class="nav-item">
+               <a class="nav-link" href="#">Schedule</a>
+            </li> -->
+            <li class="nav-item">
+               <a class="nav-link" href="index.html#endorsement-partners">Endorsement Partners</a>
+            </li>
+            <li class="nav-item">
+               <a class="nav-link" href="index.html#partners-and-organisers">Partners and Organisers</a>
+            </li>
+            <!-- <li class="nav-item">
+               <a class="nav-link" href="#rules-and-regulations">Rules and Regulations</a>
+            </li> -->
+             <li class="nav-item">
+               <a class="nav-link" href="rewards.html">Rewards</a>
+            </li>
+            <li class="nav-item">
+               <a class="nav-link" href="index.html#faqs">FAQs</a>
+            </li>
+           
+            <li class="nav-item">
+               <a class="nav-link" href="index.html#contact-us">Contact us</a>
+            </li>
+         </ul>
+      </div>
+   </nav>
+<section id="announcement">
+     
+  <div class="pt-3 overflow-hidden pl-4 pr-4">
+    <div class="py-3">
+         <h4 class="display-5 section-title text-center">Our hearty congratulations to all the winners!</h4>
+            </div>
+            <div class="mx-auto bd-highlight px-3 pb-3">
+            <div class="row">
+              <div class="col-md-4">
+          <button type="button" class="btn btn-lg btn-success" data-toggle="collapse" id="Div-A">Winners</button>
+        </div>
+        <div class="col-md-8">
+        <div id="Div-B" style="display:none;"><img id="myImage" src="image/congratulations.png" class="img-fluid"></div>
+        <div id="winners" class="collapse">
+       <p>List of Winners:</p>
+        <table class="table table-bordered">
+        <thead class="thead-dark">
+          <th>Rank</th>
+          <th>Team ID</th>
+          <th>Team Leader & Team Members</th>
+          <th>Story Name</th>
+         </thead>
+        <tbody>
+          <tr>
+          <td>1st</td>
+          <td>SS2DH1408</td>
+          <td>Vanshpalsingh Kalsi</td>
+          <td>The Lion Makers</td>
+          </tr>
+          <tr>
+          <td colspan="1" rowspan="4">
+          <div>2nd</div>
+          </td>
+          <td colspan="1" rowspan="4">
+          <div>SS2DH1227</div>
+          </td>
+          <td>Shubham Kanase</td>
+          <td colspan="1" rowspan="4">
+          <div>The Clever Monkey</div>
+          </td>
+          </td>
+          </tr>
+          <tr>
+          <td>Vaibhav Kadam</td>
+          </tr>
+          <tr>
+          <td>Yogesh Jadhav</td>
+          </tr>
+          <tr>
+          <td>Mayank Dhargawe</td>
+          </tr>
+          <tr>
+          <td colspan="1" rowspan="4">
+          <div>3rd</div>
+          </td>
+          <td colspan="1" rowspan="4">
+          <div>SS2DH1021</div>
+          </td>
+          <td>Rakshitha Vaidhya. k
+          </td>
+          <td colspan="1" rowspan="4">
+          <div>The Clever Fishes</div>
+          </td>
+          </tr>
+          <tr>
+          <td>Mouleaswar S</td>
+          </tr>
+          <tr>
+          <td>Pradeep P</td>
+          </tr>
+          <tr>
+          <td>Soujanya Rashmie. M</td>
+          </tr>
+          </tbody>
+      </table>
+      </div>
+      </div>
+    </div>
+
+    <div class="row pt-4">
+     <div class="col-md-4">
+      <button type="button" class="btn btn-lg btn-danger" data-toggle="collapse" id="announce-consolation" onclick="divReplaceSpecial()">Special prize winners</button>
+      <!-- <button type="button" class="btn btn-lg btn-danger" data-toggle="collapse" id="announce-special" onclick="divReplaceSpecial()">Announce Special prize winners</button> -->
+        </div>
+        <div class="col-md-8">
+        <div id="special-congratulations" style="display:none;"><img id="myImage" src="image/special.gif" class="img-fluid"></div>
+        <div id="special" class="collapse">
+        <p>List of Special prize winners:</p>
+         <table class="table table-bordered">
+         <thead class="thead-dark">
+          <th>Team ID</th>
+          <th>Team Leader &amp; Team Member</th>
+          <th>Story Name</th>
+          <th>Category</th>
+         </thead>
+        <tbody>
+        <tr>
+        <td>SS2DH0209</td>
+        <td>Saanvi Gokhale</td>
+        <td>The heron that liked crab meat</td>
+        <td>Unique (Youngest) Participant</td>
+        </tr>
+        <tr>
+        <td>SS2DH0170</td>
+        <td>Akhtar Nadaf</td>
+        <td>The heron that liked crab meat</td>
+        <td>Unique (Hindi Play) Participant</td>
+        </tr>
+        <tr>
+        <td>SS2DH0042</td>
+        <td>Pranali Khedekar</td>
+        <td>The Blue Jackal</td>
+        <td>Unique (Creative) Participant</td>
+        </tr>
+        <tr>
+        <td colspan="1" rowspan="4">
+        <div>SS2DH0144</div>
+        </td>
+        <td>Aditya Ravindran</td>
+        <td colspan="1" rowspan="4">
+        <div>Be friends with all</div>
+        </td>
+        <td colspan="1" rowspan="4">
+        <div>Unique (Tamil Play) Participant</div>
+        </td>
+        </tr>
+        <tr>
+        <td>Madhav Rajadurai</td>
+        </tr>
+        <tr>
+        <td>Pranav Prabhu</td>
+        </tr>
+        <tr>
+        <td>Adithya Karthikeyan</td>
+        </tr>
+        </tbody>
+      </table>
+      </div>
+      </div>
+    </div>
+    
+    
+
+
+   <div class="row pt-4">
+     <div class="col-md-4">
+     <button type="button" class="btn btn-lg btn-info" data-toggle="collapse" id="announce-consolation" onclick="divReplaceConsolation()">Consolation prize winners</button>
+        </div>
+        <div class="col-md-8">
+        <div id="consolation-congratulations" style="display:none;"><img id="myImage" src="image/congratulations.png" class="img-fluid"></div>
+        <div id="consolation" class="collapse">
+        <p>List of Consolation prize winners:</p>
+         <table class="table table-bordered">
+        <thead class="thead-dark">
+          <th>Team ID</th>
+          <th>Team Leader &amp; Team Member</th>
+          <th>Story Name</th>
+        </thead>
+        <tbody>
+          <tr>
+          <td colspan="1" rowspan="4">
+          <div>SS2DH0824</div>
+          </td>
+          <td>Naveena K S</td>
+          <td colspan="1" rowspan="4">
+          <div>Forethought &amp; Ready-wit &amp; Fatalist</div>
+          </td>
+          </td>
+          </tr>
+          <tr>
+          <td>Yadhu Nandhini S E</td>
+          </tr>
+          <tr>
+          <td>Kavi Varshini S</td>
+          </tr>
+          <tr>
+          <td>Sowmyaa Shri S</td>
+          </tr>
+          <tr>
+          <td>SS2DH0641</td>
+          <td>Karthika Rajesh</td>
+          <td>The Squabbling Monkeys</td>
+          </tr>
+          <tr>
+          <td>SS2DH0369</td>
+          <td>Aditya Gopakumar</td>
+          <td>The Lion And The Jackal</td>
+          </tr>
+          <tr>
+          <td>SS2DH0612</td>
+          <td>Jony Jas J</td>
+          <td>The Tale of Three Fishes</td>
+          </tr>
+          <tr>
+          <td colspan="1" rowspan="4">
+          <div>SS2DH0159</div>
+          </td>
+          <td>Vipul Ajmera</td>
+          <td colspan="1" rowspan="4">
+          <div>The Loquacious Tortoise</div>
+          </td>
+          </td>
+          </tr>
+          <tr>
+          <td>Ankur Ajanalkar</td>
+          </tr>
+          <tr>
+          <td>Ziyaasim Aurade</td>
+          </tr>
+          <tr>
+          <td>Vaibhav Bhus</td>
+          </tr>
+          <tr>
+          <td>SS2DH0134</td>
+          <td>Aditya Ratnaparkhi</td>
+          <td>Shell neck, Slim and Grim</td>
+          </tr>
+          <tr>
+          <td>SS2DH0982</td>
+          <td>Vineeth P R</td>
+          <td>Brahmin and the Goat</td>
+          </tr>
+          <tr>
+          <td colspan="1" rowspan="4">
+          <div>SS2DH1387</div>
+          </td>
+          <td>Ujjawal Rajput</td>
+          <td colspan="1" rowspan="4">
+          <div>The Liar Shephard</div>
+          </td>
+          </td>
+          </tr>
+          <tr>
+          <td>Deepak Kumar</td>
+          </tr>
+          <tr>
+          <td>Shubham Yadav</td>
+          </tr>
+          <tr>
+          <td>Swati Jaiswal</td>
+          </tr>
+          <tr>
+          <td colspan="1" rowspan="4">
+          <div>SS2DH1377</div>
+          </td>
+          <td>Akhilesh Joshi</td>
+          <td colspan="1" rowspan="4">
+          <div>Andher Nagari ka Raja</div>
+          </td>
+          </tr>
+          <tr>
+          <td>Utkarsh Upadhyay</td>
+          </tr>
+          <tr>
+          <td>Mandar Dixit</td>
+          </tr>
+          <tr>
+          <td>Aditi Shimple</td>
+          </tr>
+          <tr>
+          <td colspan="1" rowspan="2">
+          <div>SS2DH0290</div>
+          </td>
+          <td>Ashlesh Bhati</td>
+          <td colspan="1" rowspan="2">
+          <div>The Owls and the Crows</div>
+          </td>
+          </td>
+          </tr>
+          <tr>
+          <td>Jatin Verma</td>
+          </tr>
+        </tbody>
+      </table>
+      </div>
+      </div>
+    </div>
+    </div>
+    </div>
+  </div>
+  </div>
+
+</section>
+<br>
+<br>
+ <section id="footer" class="site-footer">
+      <footer class="container-fluid py-5 site-footer pl-5 pr-4">
+         <div class="row">
+            <div class="col-sm-3">
+               <ul class="list-unstyled text-small">
+                  <li><a class="text-muted" href="https://fossee.in" target="_blank">FOSSEE</a></li>
+                  <li><a class="text-muted" href="https://focal.fossee.in/" target="_blank">FOCAL</a></li>
+                  <li><a class="text-muted" href="https://spoken-tutorial.org" target="_blank">Spoken Tutorial</a></li>
+               </ul>
+            </div>
+            <div class="col-sm-3">
+               <h5>Resources</h5>
+               <ul class="list-unstyled text-small">
+                  <li><a class="text-muted" href="https://www.synfig.org/" target="_blank">Synfig.org</a></li>
+                  <li><a class="text-muted" href="https://spoken-tutorial.org" target="_blank">Spoken Tutorial</a></li>
+                  <li><a class="text-muted" href="https://forums.fossee.in/" target="_blank">Fossee Forum</a></li>
+                  <li><a class="text-muted" href="https://forums.spoken-tutorial.org" target="_blank">Spoken Tutorial Forum</a></li>
+               </ul>
+            </div>
+           <!--  <div class="col-sm-3">
+               <h5>Socail Media</h5>
+               <ul class="list-unstyled text-small">
+                  <li><a href="https://www.facebook.com/FOSSEENMEICT/" class="facebook text-white" target="_blank"><i
+                     class="fab fa-facebook"></i></a>
+                  </li><br>
+                  <li><a href="https://twitter.com/FOSSEENMEICT/" class="twitter" target="_blank"><i
+                     class="fab fa-twitter"></i></a>
+                  </li>
+               </ul>
+            </div>
+            <div class="col-sm-3"> -->
+               <small class="d-block mb-3 text-muted">
+                  <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img
+                        alt="Creative Commons License" style="border-width:0" src="image/88x31.png" /></a><br />This
+                  work is licensed under a <a rel="license"
+                     href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons
+                     Attribution-ShareAlike 4.0 International License</a>.
+               </small>
+            </div>
+         </div>
+      </footer>
+   </section>
+   <!-- Bootstrap core JavaScript
+         ================================================== -->
+   <!-- Placed at the end of the document so the pages load faster -->
+   <script src="js/jquery-3.2.1.min.js"></script>
+   <script src="js/popper.min.js"></script>
+   <script src="bootstrap-4.5.0/js/bootstrap.min.js"></script>
+   <script src="js/holder.min.js"></script>
+   <script src="js/custom.js?v={{ substr(md5(date("Y-m-d_Hi")),10,18) }}"></script>
+   <!-- Global site tag (gtag.js) - Google Analytics -->
+   <script async src="https://www.googletagmanager.com/gtag/js?id=G-MTNG859K51"></script>
+   <script>
+   window.dataLayer = window.dataLayer || [];
+
+   function gtag(){
+      dataLayer.push(arguments);
+   }
+   gtag('js', new Date());
+   gtag('config', 'G-MTNG859K51');
+   </script>
+   <script type="text/javascript">
+      var activeNavItem = $('.nav-item');
+
+      activeNavItem.click(function () {
+         activeNavItem.removeClass('active');
+         $(this).addClass('active');
+      });
+   </script>
+</body>
+
+</html>
